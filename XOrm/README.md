@@ -92,7 +92,7 @@ OnDecode()                  // 解码后回调
 AliasName() string          // 数据库别名
 TableName() string          // 数据表名称
 ModelUnique() string        // 模型唯一标识
-DataUnique() string         // 数据记录唯一标识
+DataUnique() string         // 数据唯一标识
 DataValue(field string) any // 获取字段值
 ```
 

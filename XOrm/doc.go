@@ -86,7 +86,7 @@ XOrm 拓展了 Beego 的 ORM 功能，同时实现了基于上下文的缓存机
 	AliasName() string          // 数据库别名
 	TableName() string          // 数据表名称
 	ModelUnique() string        // 模型唯一标识
-	DataUnique() string         // 数据记录唯一标识
+	DataUnique() string         // 数据唯一标识
 	DataValue(field string) any // 获取字段值
 
 数据操作：
